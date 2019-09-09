@@ -1,0 +1,114 @@
+
+img{
+    width:100vh;
+    justify-content:center;
+    padding:10px;
+    padding-bottom:20px;
+}
+
+.jumbotron{
+    background-color:white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+  }
+
+ul{
+    list-style-type: none;
+}
+
+
+/*buttons*/
+.prototype a{
+    border:3px solid #3591C4;
+    color:black;
+    padding:12px;
+    border-radius:5px;
+}
+
+.prototype a:hover{
+    background-color:salmon;
+    color:white;
+}
+
+
+/*navigation*/
+.nav-link{
+    color:black;
+}
+
+.nav-link:active{
+    color:salmon;
+}
+
+.nav{
+    padding:5px;
+    background-color:white;
+    width: 100%;
+}
+
+.child1 {
+    width:63%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:300;
+    font-size:21px;
+}
+
+.child2 {
+    width:37%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.child2 > nav-link-active a{
+    text-decoration:none; 
+}
+
+/*Typography*/
+h1,h2,h3,h5{
+    padding:2px;
+    font-family:'Raleway', sans-serif;
+}
+
+h3{
+    color: salmon;
+}
+
+h2{
+    margin-top:23px;
+    color: salmon;
+}
+
+h5 {
+    font-weight:1000;
+}
+
+h6{
+    color: salmon;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    flex-wrap:wrap;
+    padding:15px;
+}
+
+a:hover{
+    color:salmon;
+}
+
+.nav-link-active{
+    color:#3591C4;
+    text-decoration-line: underline;
+}
+
+
